@@ -13,7 +13,7 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto">
-                            <Link href="/homepage">
+                            <Link href="/">
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
@@ -23,16 +23,13 @@ const Navbar = () => {
                                     <a className="nav-link" href="#">Course</a>
                                 </li>
                             </Link>
-                            <Link href="https://code-editor-edumillenial.vercel.app/">
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">Code Editor</a>
-                                </li>
-                            </Link>
                             <Link href="/about">
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">About Us</a>
                                 </li>
                             </Link>
+                            <button class="btn btn-light btn-register rounded-0 me-2" type="button">Log in</button>
+                            <button class="btn btn-outline-light btn-register rounded-0 me-2" type="button">Sign up</button>
                         </ul>
                     </div>
                 </div>

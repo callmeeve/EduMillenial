@@ -5,7 +5,7 @@ const Slider = () => {
         if (action === "next") {
           carousel.next();
         } else {
-          carousel.prev(); 
+          carousel.prev();
         }
       };
     return (
@@ -64,7 +64,7 @@ const Slider = () => {
                                 </div>
                                 <ol className="carousel-indicators position-relative mt-3">
                                     <li data-bs-target="#myCarousel" data-bs-slide-to={0} className="bg-dark" aria-current="true" onClick={() => toggleCarousel("prev") } />
-                                    <li data-bs-target="#myCarousel" data-bs-slide-to={1} className="bg-dark" onClick={() => toggleCarousel("next") } />
+                                    <li data-bs-target="#myCarousel" data-bs-slide-to={1} className="bg-dark" onClick={() => toggleCarousel("next")}/>
                                 </ol>
                                 <div className="w-100 px-3 text-center mt-4">
                                     <a className="carousel-control-prev position-relative d-inline me-4" href="#myCarousel" data-bs-slide="prev">
